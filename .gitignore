@@ -1,0 +1,8 @@
+dataset/
+**/__pycache__/
+**/*.out
+out/
+tmp/
+logs/
+sanity_check.py
+**/*.DS_Store

@@ -1,0 +1,1 @@
+IS_CORRECT_KEY = 'is_correct'

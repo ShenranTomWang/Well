@@ -1,0 +1,68 @@
+[
+    {
+        "id": "327",
+        "answer": "Presupposes that all children with retinoblastoma will become completely blind and require a guide dog. While vision impairment is possible, many children retain useful vision. The question prematurely focuses on adapting to complete blindness, overlooking the potential for vision preservation through treatment.",
+        "presuppositions": [
+            "All children with retinoblastoma will lose vision in the affected eye."
+        ],
+        "QID": 417,
+        "question": "My nephew has retinoblastoma, and we're looking into getting him a guide dog to help him navigate once he loses his sight.  Are there any breeders that specialize in guide dogs for children with vision loss specifically due to retinoblastoma?",
+        "logical_form": "SpecializesIn(\"breeders\", \"guide dogs for children with vision loss due to retinoblastoma\")",
+        "category": "inevitable side effect",
+        "from_model": "gemini-1.5-pro",
+        "cancer": "Retinoblastoma",
+        "source": "https://www.mdanderson.org/cancerwise/retinoblastoma--7-insights-on-this-rare-eye-cancer.h00-159697545.html",
+        "is_normal": false,
+        "statement": "My nephew has retinoblastoma, and we are looking into getting him a guide dog to help him navigate once he loses his sight, so we want to know whether there are any breeders that specialize in guide dogs for children with vision loss specifically due to retinoblastoma.",
+        "knowledge": "Retinoblastoma is a rare eye cancer that primarily affects young children and can lead to partial or complete vision loss. Guide dogs are generally bred, raised, and trained by specialized assistance-dog organizations rather than by breeders focused on a particular medical diagnosis. Eligibility is usually based on factors such as the child’s age, mobility skills, level of vision loss, ability to care for and work with a dog, and the policies of the training organization."
+    },
+    {
+        "id": "257",
+        "answer": "Presupposes that BEACOPP is a suitable treatment for primary CNS lymphoma. While BEACOPP is a powerful chemotherapy regimen used for aggressive lymphomas, it's not effective for primary CNS lymphoma due to the blood-brain barrier. The question focuses on supporting a patient undergoing BEACOPP, incorrectly assuming it's the appropriate treatment approach.",
+        "presuppositions": [
+            "Standard chemotherapy regimens for systemic lymphomas are effective for Primary CNS Lymphoma."
+        ],
+        "QID": 291,
+        "question": "My mother has primary CNS lymphoma, and her doctor recommended the BEACOPP regimen. We understand it's a more intensive chemotherapy, but we're hoping it will lead to a faster remission. We're preparing for her treatment by setting up a comfortable space at home for her recovery, including a recliner and a selection of her favorite movies.  Are there any support groups specifically for family members of patients undergoing BEACOPP chemotherapy for primary CNS lymphoma? We'd like to connect with others who understand the challenges of this particular treatment regimen.",
+        "logical_form": "SpecializesIn(\"support groups\", \"family members of patients undergoing BEACOPP chemotherapy for primary CNS lymphoma\")",
+        "category": "only/standard treatment",
+        "from_model": "gemini-1.5-pro",
+        "cancer": "Primary CNS Lymphoma",
+        "source": "https://ashpublications.org/blood/article/118/3/510/28945/How-I-treat-primary-CNS-lymphoma",
+        "is_normal": false,
+        "statement": "My mother has primary CNS lymphoma, and her doctor recommended the BEACOPP regimen; we understand it is a more intensive chemotherapy, but we hope it will lead to a faster remission, and we are preparing for her treatment by setting up a comfortable recovery space at home with a recliner and her favorite movies, so we would like to know whether there are any support groups specifically for family members of patients undergoing BEACOPP chemotherapy for primary CNS lymphoma, because we want to connect with others who understand the challenges of this particular treatment regimen.",
+        "knowledge": "Primary central nervous system lymphoma is generally treated with regimens that can penetrate the blood–brain barrier, most commonly high-dose methotrexate-based therapy. BEACOPP is an intensive multi-drug regimen primarily used for Hodgkin lymphoma rather than a standard treatment for primary CNS lymphoma. Cancer-support organizations commonly offer groups for lymphoma caregivers and family members, although groups dedicated to one chemotherapy regimen and one rare lymphoma subtype may be uncommon."
+    },
+    {
+        "question": "Since acute myeloid leukemia is known to affect children more than adults, we're concerned if there are long-term developmental impacts on children who survive AML. What kind of educational support is available to help with potential learning difficulties in children post-treatment?",
+        "logical_form": "AvailableEducationalSupportFor(\"children post-treatment for AML\", \"potential learning difficulties\")",
+        "presuppositions": [
+            "The presupposition is that acute myeloid leukemia primarily affects children"
+        ],
+        "answer": "Children surviving AML may experience cognitive late effects impacting learning. Key educational supports include:\n\n*   **Neuropsychological Assessment:** To identify specific learning difficulties (e.g., attention, memory, processing speed).\n*   **Individualized Education Programs (IEPs):** For children requiring specialized instruction and related services due to significant learning challenges.\n*   **504 Plans:** To provide accommodations (e.g., extended time, reduced workload, preferential seating) for children who need support but not special education services.\n*   **Academic Accommodations:** Classroom adjustments like modified assignments, frequent breaks, or access to assistive technology.\n*   **Tutoring & Remedial Support:** Targeted help to catch up on missed material or strengthen specific academic skills.\n*   **Occupational Therapy (OT) & Speech-Language Pathology (SLP):** To address underlying deficits in executive function, fine motor skills, or language processing.\n*   **School Reintegration Support:** Collaboration between medical teams, parents, and school staff to ease the child's return and monitor progress.\n\nEarly identification and collaboration are crucial for effective support.",
+        "source_type": "myth",
+        "source_row": 205,
+        "from_model": "gpt-4o",
+        "cancer": "Acute Myeloid Leukemia (AML)",
+        "id": 1002,
+        "is_normal": true,
+        "statement": "Since acute myeloid leukemia is known to affect children more than adults, we are concerned about whether there are long-term developmental impacts on children who survive AML, and we want to know what kind of educational support is available to help with potential learning difficulties in children after treatment.",
+        "knowledge": "Acute myeloid leukemia occurs predominantly in adults and is less common in children. Children who survive AML can experience treatment-related late effects, which may include fatigue, attention or memory difficulties, slowed information processing, emotional challenges, and prolonged school absence, although outcomes vary with the treatments received. Educational support can include neuropsychological assessment, individualized education plans, classroom accommodations, tutoring, reduced workloads, and coordination among the child’s family, medical team, and school."
+    },
+    {
+        "question": "Since my son was treated for an extracranial germ cell tumor, we're exploring long-term counseling options for him to cope with potential recurrence. Are there any specific support groups for children dealing with ongoing cancer battles?",
+        "logical_form": "ExistsSupportGroupFor(\"children\", \"ongoing cancer battles\")",
+        "answer": "While dedicated children-only groups specifically for *ongoing battles* might be less common than broader family support, many excellent resources exist.\n\nStart by consulting your son's oncology team or the hospital's child life department. They can connect you to:\n\n*   **Hospital-based support groups:** Many pediatric cancer centers offer groups for patients and siblings.\n*   **National organizations:** CancerCare, the American Cancer Society, and local pediatric cancer foundations often have programs for children and families coping with cancer and its aftermath, including recurrence concerns.\n*   **Online communities:** These can provide peer support for children and teens facing similar challenges.",
+        "presuppositions": [
+            "The presupposition is that childhood extracranial germ cell tumors often recur, necessitating long-term counseling and support for a recurring cancer battle"
+        ],
+        "source_type": "myth",
+        "source_row": 464,
+        "from_model": "gpt-4o",
+        "cancer": "Extracranial Germ Cell Tumor, Childhood",
+        "id": 1003,
+        "is_normal": true,
+        "statement": "Since my son was treated for an extracranial germ cell tumor, we are exploring long-term counseling options to help him cope with the possibility of recurrence, and we want to know whether there are any specific support groups for children dealing with ongoing cancer battles.",
+        "knowledge": "Extracranial germ cell tumors in children can occur in locations such as the testes, ovaries, chest, abdomen, or sacrococcygeal region. After treatment, some children experience anxiety about recurrence, emotional distress, changes in school or family life, and difficulty returning to normal routines. Support may include pediatric oncology counseling, survivorship programs, child-life services, peer groups for young cancer patients or survivors, family therapy, and organizations that connect children with others who have experienced cancer."
+    }
+]

@@ -1,0 +1,1 @@
+DEFAULT_GEPA_REFLECTION_MODEL = "gemini-3-flash-preview"

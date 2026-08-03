@@ -1,0 +1,20 @@
+{
+    "cause of death": "{x} died of {y}.",
+    "child": "{x} gave birth to {y}.",
+    "composer": "{x} was the composer of {y}.",
+    "country of citizenship": "{x} was a citizen of {y}.",
+    "director": "{x} directed {y}.",
+    "educated at": "{x} was educated at {y}.",
+    "employer": "{x} was working in {y}.",
+    "ethnic group": "{x} served a governmental role in {y}.",
+    "medical condition": "{x} was diagnosed with {y}.",
+    "member of": "{x} was a member of {y}.",
+    "member of political party": "{x} was removed from {y}.",
+    "participant in": "{x} participated in {y}.",
+    "position held": "{x} held the position of {y}.",
+    "relative": "{x} had a familial connection with {y}.",
+    "religion or worldview": "{x} was a subsect of {y}.",
+    "sibling": "{x} had a sibling {y}.",
+    "student of": "{x} was a student of {y}.",
+    "work location": "{x} was working in {y}."
+}
