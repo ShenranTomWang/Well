@@ -1,3 +1,10 @@
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --gpus=1
+#SBATCH --mem-per-cpu=16G
+#SBATCH --time=72:0:0
+#SBATCH --partition=nlpgpo
+
 source ${HOME_DIR}/.bashrc
 source ${SCRATCH_DIR}/envs/FP_Hallucination/.venv/bin/activate
 cd ${PROJECT_DIR}/FP_Hallucination
