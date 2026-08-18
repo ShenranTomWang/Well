@@ -1,7 +1,7 @@
 # Don't `Well, Actually' Me Unless You Know What You're Talking About: Weak Presupposition Verification Degrades General QA Performance
 ### Shenran Wang, Vered Shwartz, Hila Gonen
 
-🤗 **[Dataset](https://huggingface.co/datasets/shenranw/CancerMyth-TPQ)** | 📄 **[Paper Link](to_be_updated)**
+🤗 **[Dataset](https://huggingface.co/datasets/shenranw/CancerMyth-TPQ)** | 📄 **[Paper Link](https://arxiv.org/abs/2608.06539)**
 
 Quick Starter
 -------------
@@ -18,3 +18,17 @@ Reproducing Methods
 Fact-checking Ablation Studies
 -------------
 See [check_gold](./job_scripts/check_gold/)
+
+Citation
+-------------
+```tex
+@misc{wang2026dontwellactuallyunless,
+      title={Don't `Well, Actually' Me Unless You Know What You're Talking About: Weak Presupposition Verification Degrades General QA Performance}, 
+      author={Shenran Wang and Vered Shwartz and Hila Gonen},
+      year={2026},
+      eprint={2608.06539},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2608.06539}, 
+}
+```
