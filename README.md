@@ -22,7 +22,8 @@ See [check_gold](./job_scripts/check_gold/)
 Citation
 -------------
 ```tex
-@misc{wang2026dontwellactuallyunless,
+@misc{
+      wang2026dontwellactuallyunless,
       title={Don't `Well, Actually' Me Unless You Know What You're Talking About: Weak Presupposition Verification Degrades General QA Performance}, 
       author={Shenran Wang and Vered Shwartz and Hila Gonen},
       year={2026},
